@@ -101,8 +101,8 @@ function download_model()
     echo "==> Downloading model from Hugging Face..." | tee -a $LOGF
 
     local MODEL_NAME="LLaMA-MoE-v1-3_5B-2_8"
-    local WORK_DIR="/local/repository/ll_test"
-    local DEST_DIR="/local/repository/llama-moe/$MODEL_NAME"
+    local WORK_DIR="/local/repository/MoE_Update/ll_test"
+    local DEST_DIR="/local/repository/MoE_Update/llama-moe/$MODEL_NAME"
 
     mkdir -p $WORK_DIR
     cd $WORK_DIR
